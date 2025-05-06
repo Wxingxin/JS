@@ -9,3 +9,9 @@ js的学习和面试题
 #### 3 回流和重绘解析
 #### 4 合成和性能优化
 #### 5 defer和async属性 
+
+# 03 JavaScript的函数相关
+#### 1 JavaScript的执行上下文
+#### 2 JavaScript的闭包
+####
+####
