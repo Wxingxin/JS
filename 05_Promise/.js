@@ -24,5 +24,31 @@
 // );
 
 new Promise((resolve, reject) => {
-  reject();
-}).catch((err) => console.log("code is err"));
+  resolve(999);
+}).then(
+  (successValue) => {
+    console.log(`successValue is :${successValue}`);
+  },
+  (errorReason) => {
+    console.log(`error :${errorReason}`);
+  }
+);
+
+const promise = new Promise((resolve, reject) => {
+  resolve(99);
+});
+promise
+  .then(
+    (successValue) => {
+      console.log(`successValue is :${successValue}`);
+    },
+    (errorReason) => {
+      console.log(`error :${errorReason}`);
+    }
+  )
+  .then((val) => {
+    console.log("val", val);
+  })
+  .then((val) => {
+    console.log("val", val);
+  });

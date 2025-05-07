@@ -27,7 +27,7 @@
 # 05 Promise 
 #### 1. 异步代码的困境
 #### 2. 认识promise的作用
-#### 3. Promise的基本使用
-#### 4. Promise状态变化
+#### 3. Promise状态变化
+#### 4. Promise的基本使用
 #### 5. Promise实例方法
 #### 6. Promise的类方法
