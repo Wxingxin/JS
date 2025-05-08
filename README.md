@@ -41,7 +41,8 @@
 #### 异步处理方案解析
 
 # 07 AWAIT ASYNC 事件循环
-#### async await
+#### async 
+#### await
 #### 浏览器进程 线程
 #### 宏任务 微任务队列
 #### Pormise面试题
